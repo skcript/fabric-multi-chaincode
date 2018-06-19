@@ -16,7 +16,7 @@ Profiles:
                     - *Org1
                     - *Org2
     
-    ChannelMCU:
+    ChannelOne:
         Consortium: SampleConsortium
         Application:
             <<: *ApplicationDefaults
@@ -27,7 +27,7 @@ Profiles:
             Capabilities:
                 <<: *ApplicationCapabilities
     
-    ChannelCH:
+    ChannelTwo:
         Consortium: SampleConsortium
         Application:
             <<: *ApplicationDefaults
